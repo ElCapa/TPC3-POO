@@ -1,0 +1,39 @@
+1) Modelar um Funcionário:
+
+Atributos:
+Nome do funcionário (String)
+Departamento onde trabalha (String)
+Salário (double)
+Data de entrada no banco (String)
+RG (String)
+
+Métodos:
+recebeAumento(double aumento): 
+calculaGanhoAnual():
+
+desenhar um diagrama:
+
+Funcionário
+
+nome: String
+departamento: String
+salário: double
+dataEntradaBanco: String
+RG: String
+recebeAumento(aumento: double): void
+calculaGanhoAnual(): double
+
+
+
+3) Mesmo que os dois funcionários tenham os mesmos atributos, o resultado da comparação com == será "diferentes", pois estamos comparando as referências dos objetos, e não os valores dos atributos. Ou seja, f1 e f2 apontam para objetos diferentes na memória, mesmo que os valores de seus atributos sejam iguais. Para comparar os objetos pelo valor dos atributos, seria necessário implementar um método equals() na classe Funcionario.
+
+
+
+5) Se criarmos duas referências para o mesmo objeto, ou seja, atribuirmos uma referência a outra como no exemplo "Funcionario f2 = f1;", ambas as referências apontarão para o mesmo objeto na memória. Portanto, quando compararmos f1 e f2 com o operador ==, a condição será verdadeira, já que ambas as referências apontam para o mesmo objeto.
+
+Portanto, se fizermos o exercício anterior com essas duas referências, o resultado será "iguais".
+
+
+
+8) Não faz sentido acessar um atributo diretamente na classe, já que os atributos são propriedades dos objetos e não da classe em si.
+

@@ -1,0 +1,34 @@
+O que é uma classe?
+
+Uma classe é um modelo ou padrão de um objeto que descreve suas características ou comportamentos. É um conceito abstrato que descreve como os objetos de uma determinada classe devem se comportar. Uma classe é definida por seus atributos e métodos. Os atributos são as variáveis ​​que descrevem o estado de um objeto. Os métodos são as funções usadas para manipular os dados da classe. Uma classe fornece a base para a criação de objetos. Um objeto é uma instância de uma classe. Ele é criado a partir da classe e possui seus próprios conjuntos de variáveis ​​e funções.
+
+Como se define uma classe em JAVA?
+
+Uma classe em Java é definida com o uso da palavra-chave class seguida do nome da classe. O nome da classe deve ser um substantivo, com a primeira letra maiúscula.
+
+Uma classe deve sempre ter um bloco de código entre o abre e o fecha chaves.
+Exemplo:
+class Conta {
+int numero;
+String dono;
+double saldo;
+double limite;
+// ..
+}
+
+O que são variáveis e métodos de instância2?
+
+Variáveis de instância são variáveis que fazem parte da estrutura de um objeto e são acessíveis a todos os objetos desta classe. Cada objeto pode ter seu próprio valor para a variável de instância.
+Métodos de instância são métodos que podem ser usados ​​em objetos da classe. Eles recebem entradas do objeto, processam esses dados e devolvem uma saída. Eles são específicos para esses objetos e não podem ser usados ​​em outros objetos.
+
+O que é e para que serve o método construtor
+
+O construtor é um método especial em uma classe que é chamado automaticamente quando um objeto é instanciado. O objetivo do construtor é inicializar os objetos ao criá-los. O construtor é definido com o mesmo nome da classe. Por exemplo, se a classe se chama MeuObjeto, o construtor dessa classe seria MeuObjeto (). O construtor é usado para inicializar variáveis de instância, alocar memória, abrir arquivos e executar qualquer outra tarefa necessária para configurar um objeto novo.
+
+Atributos de acesso e como isso afecta o acesso a variáveis de instância e métodos
+
+Os atributos de acesso controlam como os membros da classe podem ser acessados por outros objetos. Um membro da classe pode ser um atributo ou um método. Os atributos de acesso são public, private e protected. Os membros da classe com atributo de acesso public podem ser acessados por qualquer outro objeto. Os membros da classe com atributo de acesso private só podem ser acessados pela própria classe. Os membros da classe com atributo de acesso protected podem ser acessados por outros objetos da mesma classe ou por objetos de classes que estendem a classe.
+
+Encapsulamento
+
+O encapsulamento é o processo de ocultar a implementação dos membros da classe de outros objetos. Isso significa que os membros da classe não podem ser acessados diretamente por outros objetos. Os membros da classe só podem ser acessados por meio de métodos públicos. O encapsulamento ajuda a proteger os dados e as operações dentro da classe de acesso indevido.
